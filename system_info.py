@@ -26,6 +26,10 @@ def show_system_info():
 
 
 show_system_info()
+print("System information tool -version 2")
+print("System information tool -version 3")
+
+
 
 
 
