@@ -1,40 +1,30 @@
 import platform 
 import sys
-
-
-def get_computer_name():
-    return f"Computer:{ platform.node()}"
-
-def get_os_version():
-    return f"Machine:{platform.machine()}"
-
-def get_operating_system():
-    return f"OS:{platform.system()}"
-
-def get_python_version():
-    return f"Python:{sys.version.split()[0]}"
-
+chemin =r'C:\Users\Augustin\python-professional-day1'
 
 def show_system_info():
-   print("SYSTEM INFORMATION")
-   print("=" *40)
-   print(get_computer_name())
-   print(get_os_version())
-   print(get_operating_system())
-   print(get_python_version())
-   print("=" *40)
+   return {
+		"Computer": platform.node(),
+		"Machine" : platform.machine(),
+		"OS"      : platform.system(),
+		"Python"  : sys.version.split()[0]
+	  }
 
 
-show_system_info()
-print("System information tool -version 2")
-print("System information tool -version 3")
-
-
-
-
-
-
-
-
-
+def display_system_info(info):
+	"""Display system information in a readable format"""
+	print("=" * 40)
+	print("=" * 5)
+	print("SYSTEM INFORMATION")
+	print("=" * 5)
+	for key,value in info.items():
+	    print(f"{key}:{value}")
+def main():
+	"""Application  entry point """
+	system_info = show_system_info() 
+	display_system_info(system_info)
+	
+	"""if __name__=="__main__":
+	   main()"""
+main()
 
