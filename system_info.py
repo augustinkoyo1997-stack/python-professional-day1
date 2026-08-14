@@ -19,6 +19,8 @@ def display_system_info(info):
 	print("=" * 5)
 	for key,value in info.items():
 	    print(f"{key}:{value}")
+	    print("=" * 40)
+
 def main():
 	"""Application  entry point """
 	system_info = show_system_info() 
