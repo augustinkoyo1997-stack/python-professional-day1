@@ -19,7 +19,7 @@ def display_system_info(info):
 	print("=" * 5)
 	for key,value in info.items():
 	    print(f"{key}:{value}")
-	    print("=" * 40)
+	    print("=" * 10)
 
 def main():
 	"""Application  entry point """
