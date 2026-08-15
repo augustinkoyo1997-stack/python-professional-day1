@@ -31,3 +31,4 @@ def main():
 
 print("Git tranning--version 2")
 print("Python Professional version 2")
+print("Feature branch: system information imrproved")
