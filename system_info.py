@@ -26,8 +26,8 @@ def main():
 	system_info = show_system_info() 
 	display_system_info(system_info)
 	
-	"""if __name__=="__main__":
-	   main()"""
-main()
-print("version  2")
+	if __name__=="__main__":
+	   main()
+
 print("Git tranning--version 2")
+print("Python Professional version 2")
