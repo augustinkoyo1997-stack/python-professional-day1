@@ -30,5 +30,4 @@ def main():
 	   main()
 
 print("Git tranning--version 2")
-print("Version developpée par le developpeur A")
-print("Feature branch: system information imrproved")
+print("version  developpée par le develeloppeur A et développée B")
