@@ -30,5 +30,5 @@ def main():
 	   main()
 
 print("Git tranning--version 2")
-print("Python Professional version 2")
+print("Version développée par le developpeur B")
 print("Feature branch: system information imrproved")
