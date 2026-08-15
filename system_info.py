@@ -30,3 +30,4 @@ def main():
 	   main()"""
 main()
 print("version  2")
+print("Git tranning--version 2")
