@@ -1,6 +1,5 @@
 import platform 
 import sys
-chemin =r'C:\Users\Augustin\python-professional-day1'
 
 def show_system_info():
    return {
@@ -32,3 +31,5 @@ def main():
 print("Git tranning--version 2")
 print("version  developpée par le develeloppeur A et développée B") 
 print("System Information Tool - Professional Edition")
+print("Deleted de lin  chemin =r'C:\Users\Augustin\python-professional-day1'
+in  the system_ifo")
