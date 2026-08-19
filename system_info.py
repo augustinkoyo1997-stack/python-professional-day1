@@ -31,6 +31,6 @@ def main():
 print("Git tranning--version 2")
 print("version  developpée par le develeloppeur A et développée B") 
 print("System Information Tool - Professional Edition")
-print("Deleted de lin chemin = r'C:\Users\Augustin\python-professional-day1' in the system_info")
+print("Deleted de lin chemin  in the system_info")
 print("Modification faite directement sur GitHub")
 print("Modification  du  developpeur principal")
